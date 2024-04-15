@@ -16,10 +16,11 @@ jobs:
     
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
+        time python -m pip install --upgrade pip
 
     - name: Run amalgamation
-      run: python Amalgamation.py
+      run: |
+        time python Amalgamation.py
 
     - name: Commit and push if changes
       run: |
@@ -27,4 +28,4 @@ jobs:
         git config --global user.name "CookiedOutMonster"
         git add EmbedDB.c
         git add EmbedDB.h
-        git diff --staged --quiet || (git commit -m "Amalgamated source files" && git push)
+        git diff --staged --quiet || (time git commit -m "Amalgamated source files" && time git push)
