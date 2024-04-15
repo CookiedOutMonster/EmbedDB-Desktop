@@ -466,7 +466,7 @@ class FileNode():
 
 def main():
     # get source directory 
-    embedDB = os.path.join('Implementation', 'code', 'tests', 'test_files', 'EmbedDB')
+    embedDB = os.path.join('src')
     # set of objects containing source files (fileNode)
     header_file_nodes = retrieve_source_set(embedDB, 'h')
     source_file_nodes = retrieve_source_set(embedDB, 'c')
