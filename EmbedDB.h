@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include <time.h>
-#include <assert.h>
-#include <stddef.h>
 #include <math.h>
+#include <stddef.h>
+#include <assert.h>
+#include <stdint.h>
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
 /************************************************************spline.h************************************************************/
 /******************************************************************************/
 /**
