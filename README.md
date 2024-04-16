@@ -12,7 +12,7 @@ EmbedDB is a high performance embedded data storage and index structure optimize
 8. Easily included in C projects.
 9. Open source license. Free to use for commerical and open source projects.
 
-billy 
+burr
 
 
 **Note: This version is designed to run on a PC but a embedded version is [also available](https://github.com/ubco-db/EmbedDB)**
